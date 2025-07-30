@@ -46,6 +46,7 @@ function resetGame() {
     score.textContent = `Player: ${playerScore} | Computer: ${computerScore}`;
     resultDiv.textContent = "Game reset. Make your move!";
     resultDiv.style.color = "black";
+    resetButton.style.display = "none";
 }
 
 
